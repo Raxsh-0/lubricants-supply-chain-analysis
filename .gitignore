@@ -1,0 +1,19 @@
+# Full generated dataset — regenerate with python/generate_data.py (fixed seed)
+data/*.csv
+!data/dim_*.csv
+data/sample/*.csv
+!data/sample/*_sample.csv
+
+# Power BI temp files
+*.pbix.tmp
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+supplier_id,supplier_name,material_type,origin_hub,contract_lead_time_days,contract_price_inr_per_kg
+SUP-01,Nandini Base Oils,BASE_OIL_G1,Domestic-Mumbai,12,90.0
+SUP-02,Deccan Petro Refiners,BASE_OIL_G1,Domestic-Chennai,14,88.5
+SUP-03,Konkan Mineral Oils,BASE_OIL_G1,Domestic-Mumbai,11,92.5
+SUP-04,Saurashtra Oils,BASE_OIL_G1,Domestic-Kandla,13,89.0
+SUP-05,Vindhya Petrochem,BASE_OIL_G2,Domestic-Kandla,19,101.0
+SUP-06,Gulf Star Base Oils,BASE_OIL_G2,Import-UAE,28,97.5
+SUP-07,Straits Lube Supply,BASE_OIL_G2,Import-Singapore,26,104.0
+SUP-08,Jamnagar Base Stocks,BASE_OIL_G2,Domestic-Kandla,17,106.5
+SUP-09,Hanwoo Lube Korea,BASE_OIL_G3,Import-Korea,34,131.0
+SUP-10,Arabian Synthetics,BASE_OIL_G3,Import-UAE,31,121.5
+SUP-11,Pacific Group III,BASE_OIL_G3,Import-Singapore,33,134.5
+SUP-12,Elbe Synthetic Stocks,BASE_OIL_G3,Import-Europe,41,142.0
+SUP-13,Aditya Additive Co,ADDITIVE,Domestic-Mumbai,21,268.0
+SUP-14,Crest Performance Chem,ADDITIVE,Import-Singapore,33,249.0
+SUP-15,Vanguard Additives,ADDITIVE,Import-USA,46,284.0
+SUP-16,Sahyadri Speciality,ADDITIVE,Domestic-Pune,18,276.5
+SUP-17,Vikram Additive Works,ADDITIVE,Domestic-Kandla,23,262.0
+SUP-18,Raigad Pack Solutions,PACKAGING,Domestic-Raigad,9,62.0
+SUP-19,Metro Drum & Barrel,PACKAGING,Domestic-Mumbai,12,58.5
+SUP-20,Polycon Containers,PACKAGING,Domestic-Silvassa,10,60.5
+SUP-21,Western Thickeners,THICKENER,Domestic-Vapi,16,188.0
+SUP-22,Orient Grease Chem,THICKENER,Import-China,37,171.5
+SUP-23,Coastal Solvents,SOLVENT,Domestic-Mumbai,11,74.0
+SUP-24,Bay Chemicals,SOLVENT,Import-Singapore,27,69.5

@@ -1,0 +1,121 @@
+sku_id,sku_name,segment_code,segment_name,tier_code,base_oil_group,pack_size_l,list_price_inr_per_l,std_cost_inr_per_l,shelf_life_months
+SKU0001,Mobil Passenger MIN 5L,PCMO,Passenger Car Motor Oil,MIN,I,5.0,194.08,144.0,36
+SKU0002,Mobil Passenger MIN 208L,PCMO,Passenger Car Motor Oil,MIN,I,208.0,179.44,133.2,36
+SKU0003,Mobil Passenger MIN 5L,PCMO,Passenger Car Motor Oil,MIN,I,5.0,206.77,144.0,48
+SKU0004,Mobil Passenger SEM 208L,PCMO,Passenger Car Motor Oil,SEM,II,208.0,221.21,144.2,36
+SKU0005,Mobil Passenger MIN 3.5L,PCMO,Passenger Car Motor Oil,MIN,I,3.5,209.29,145.0,36
+SKU0006,Mobil Passenger SYN 3.5L,PCMO,Passenger Car Motor Oil,SYN,III,3.5,323.44,180.0,36
+SKU0007,Mobil Passenger MIN 208L,PCMO,Passenger Car Motor Oil,MIN,I,208.0,182.75,133.2,36
+SKU0008,Mobil Passenger MIN 20L,PCMO,Passenger Car Motor Oil,MIN,I,20.0,192.81,135.0,24
+SKU0009,Mobil Passenger MIN 208L,PCMO,Passenger Car Motor Oil,MIN,I,208.0,180.14,133.2,48
+SKU0010,Mobil Passenger MIN 0.9L,PCMO,Passenger Car Motor Oil,MIN,I,0.9,202.95,152.0,36
+SKU0011,Mobil Passenger MIN 208L,PCMO,Passenger Car Motor Oil,MIN,I,208.0,176.11,133.2,36
+SKU0012,Mobil Passenger MIN 0.9L,PCMO,Passenger Car Motor Oil,MIN,I,0.9,204.5,152.0,48
+SKU0013,Mobil Passenger MIN 208L,PCMO,Passenger Car Motor Oil,MIN,I,208.0,189.88,133.2,36
+SKU0014,Mobil Passenger SEM 3.5L,PCMO,Passenger Car Motor Oil,SEM,II,3.5,238.4,156.0,36
+SKU0015,Mobil Passenger MIN 20L,PCMO,Passenger Car Motor Oil,MIN,I,20.0,194.44,135.0,48
+SKU0016,Mobil Passenger MIN 3.5L,PCMO,Passenger Car Motor Oil,MIN,I,3.5,197.93,145.0,36
+SKU0017,Mobil Passenger MIN 5L,PCMO,Passenger Car Motor Oil,MIN,I,5.0,203.04,144.0,36
+SKU0018,Mobil Passenger MIN 5L,PCMO,Passenger Car Motor Oil,MIN,I,5.0,189.59,144.0,36
+SKU0019,Mobil Passenger SYN 208L,PCMO,Passenger Car Motor Oil,SYN,III,208.0,307.25,168.2,36
+SKU0020,Mobil Passenger MIN 3.5L,PCMO,Passenger Car Motor Oil,MIN,I,3.5,203.14,145.0,48
+SKU0021,Mobil Passenger MIN 20L,PCMO,Passenger Car Motor Oil,MIN,I,20.0,188.93,135.0,24
+SKU0022,Mobil Passenger MIN 3.5L,PCMO,Passenger Car Motor Oil,MIN,I,3.5,195.54,145.0,36
+SKU0023,Mobil Passenger MIN 1L,PCMO,Passenger Car Motor Oil,MIN,I,1.0,202.5,153.0,36
+SKU0024,Mobil Passenger MIN 20L,PCMO,Passenger Car Motor Oil,MIN,I,20.0,185.86,135.0,36
+SKU0025,Mobil Passenger MIN 3.5L,PCMO,Passenger Car Motor Oil,MIN,I,3.5,209.4,145.0,24
+SKU0026,Mobil Passenger SEM 20L,PCMO,Passenger Car Motor Oil,SEM,II,20.0,230.38,146.0,24
+SKU0027,Mobil Motorcycle MIN 2.5L,MCO,Motorcycle Oil,MIN,I,2.5,192.14,142.0,48
+SKU0028,Mobil Motorcycle MIN 1L,MCO,Motorcycle Oil,MIN,I,1.0,212.34,149.0,36
+SKU0029,Mobil Motorcycle MIN 1L,MCO,Motorcycle Oil,MIN,I,1.0,215.43,149.0,24
+SKU0030,Mobil Motorcycle SEM 20L,MCO,Motorcycle Oil,SEM,II,20.0,235.92,142.0,36
+SKU0031,Mobil Motorcycle MIN 1L,MCO,Motorcycle Oil,MIN,I,1.0,199.47,149.0,36
+SKU0032,Mobil Motorcycle MIN 208L,MCO,Motorcycle Oil,MIN,I,208.0,172.24,129.2,36
+SKU0033,Mobil Motorcycle MIN 2.5L,MCO,Motorcycle Oil,MIN,I,2.5,187.65,142.0,36
+SKU0034,Mobil Motorcycle MIN 2.5L,MCO,Motorcycle Oil,MIN,I,2.5,202.37,142.0,24
+SKU0035,Mobil Motorcycle MIN 0.8L,MCO,Motorcycle Oil,MIN,I,0.8,199.9,147.0,36
+SKU0036,Mobil Motorcycle MIN 1L,MCO,Motorcycle Oil,MIN,I,1.0,203.46,149.0,36
+SKU0037,Mobil Motorcycle SEM 2.5L,MCO,Motorcycle Oil,SEM,II,2.5,230.61,153.0,24
+SKU0038,Mobil Motorcycle MIN 1L,MCO,Motorcycle Oil,MIN,I,1.0,205.33,149.0,48
+SKU0039,Mobil Motorcycle SYN 208L,MCO,Motorcycle Oil,SYN,III,208.0,298.14,164.2,36
+SKU0040,Mobil Motorcycle MIN 20L,MCO,Motorcycle Oil,MIN,I,20.0,186.32,131.0,36
+SKU0041,Mobil Motorcycle MIN 1L,MCO,Motorcycle Oil,MIN,I,1.0,203.17,149.0,36
+SKU0042,Mobil Motorcycle SEM 1L,MCO,Motorcycle Oil,SEM,II,1.0,264.46,160.0,36
+SKU0043,Mobil Heavy SYN 208L,HDD,Heavy Duty Diesel Engine,SYN,III,208.0,335.21,181.2,48
+SKU0044,Mobil Heavy MIN 7.5L,HDD,Heavy Duty Diesel Engine,MIN,I,7.5,213.0,150.0,36
+SKU0045,Mobil Heavy MIN 7.5L,HDD,Heavy Duty Diesel Engine,MIN,I,7.5,200.48,150.0,36
+SKU0046,Mobil Heavy MIN 20L,HDD,Heavy Duty Diesel Engine,MIN,I,20.0,197.2,148.0,48
+SKU0047,Mobil Heavy MIN 20L,HDD,Heavy Duty Diesel Engine,MIN,I,20.0,211.34,148.0,24
+SKU0048,Mobil Heavy MIN 208L,HDD,Heavy Duty Diesel Engine,MIN,I,208.0,207.89,146.2,36
+SKU0049,Mobil Heavy MIN 26L,HDD,Heavy Duty Diesel Engine,MIN,I,26.0,204.52,147.8,36
+SKU0050,Mobil Heavy SYN 5L,HDD,Heavy Duty Diesel Engine,SYN,III,5.0,369.51,192.0,36
+SKU0051,Mobil Heavy MIN 20L,HDD,Heavy Duty Diesel Engine,MIN,I,20.0,211.69,148.0,24
+SKU0052,Mobil Heavy SYN 208L,HDD,Heavy Duty Diesel Engine,SYN,III,208.0,327.27,181.2,36
+SKU0053,Mobil Heavy MIN 208L,HDD,Heavy Duty Diesel Engine,MIN,I,208.0,202.99,146.2,48
+SKU0054,Mobil Heavy SYN 20L,HDD,Heavy Duty Diesel Engine,SYN,III,20.0,338.9,183.0,36
+SKU0055,Mobil Heavy MIN 208L,HDD,Heavy Duty Diesel Engine,MIN,I,208.0,207.12,146.2,36
+SKU0056,Mobil Heavy MIN 208L,HDD,Heavy Duty Diesel Engine,MIN,I,208.0,193.09,146.2,36
+SKU0057,Mobil Heavy MIN 20L,HDD,Heavy Duty Diesel Engine,MIN,I,20.0,195.34,148.0,36
+SKU0058,Mobil Heavy MIN 20L,HDD,Heavy Duty Diesel Engine,MIN,I,20.0,206.34,148.0,48
+SKU0059,Mobil Heavy MIN 208L,HDD,Heavy Duty Diesel Engine,MIN,I,208.0,210.52,146.2,36
+SKU0060,Mobil Heavy MIN 208L,HDD,Heavy Duty Diesel Engine,MIN,I,208.0,198.24,146.2,36
+SKU0061,Mobil Heavy SYN 20L,HDD,Heavy Duty Diesel Engine,SYN,III,20.0,330.27,183.0,48
+SKU0062,Mobil Heavy MIN 208L,HDD,Heavy Duty Diesel Engine,MIN,I,208.0,208.94,146.2,24
+SKU0063,Mobil Industrial MIN 208L,IND,Industrial Oils,MIN,I,208.0,168.23,117.2,36
+SKU0064,Mobil Industrial SEM 208L,IND,Industrial Oils,SEM,II,208.0,209.62,128.2,36
+SKU0065,Mobil Industrial SEM 1000L,IND,Industrial Oils,SEM,II,1000.0,203.03,127.4,36
+SKU0066,Mobil Industrial MIN 208L,IND,Industrial Oils,MIN,I,208.0,162.97,117.2,48
+SKU0067,Mobil Industrial SEM 208L,IND,Industrial Oils,SEM,II,208.0,205.46,128.2,36
+SKU0068,Mobil Industrial SEM 1000L,IND,Industrial Oils,SEM,II,1000.0,192.3,127.4,48
+SKU0069,Mobil Industrial SYN 20L,IND,Industrial Oils,SYN,III,20.0,301.68,154.0,36
+SKU0070,Mobil Industrial MIN 208L,IND,Industrial Oils,MIN,I,208.0,160.71,117.2,24
+SKU0071,Mobil Industrial MIN 1000L,IND,Industrial Oils,MIN,I,1000.0,168.49,116.4,24
+SKU0072,Mobil Industrial MIN 208L,IND,Industrial Oils,MIN,I,208.0,169.22,117.2,36
+SKU0073,Mobil Industrial MIN 208L,IND,Industrial Oils,MIN,I,208.0,162.18,117.2,48
+SKU0074,Mobil Industrial MIN 1000L,IND,Industrial Oils,MIN,I,1000.0,162.15,116.4,36
+SKU0075,Mobil Industrial MIN 208L,IND,Industrial Oils,MIN,I,208.0,157.14,117.2,36
+SKU0076,Mobil Industrial MIN 208L,IND,Industrial Oils,MIN,I,208.0,168.78,117.2,36
+SKU0077,Mobil Industrial SYN 208L,IND,Industrial Oils,SYN,III,208.0,305.66,152.2,48
+SKU0078,Mobil Industrial SYN 20L,IND,Industrial Oils,SYN,III,20.0,284.06,154.0,36
+SKU0079,Mobil Industrial MIN 1000L,IND,Industrial Oils,MIN,I,1000.0,154.78,116.4,36
+SKU0080,Mobil Industrial MIN 208L,IND,Industrial Oils,MIN,I,208.0,161.8,117.2,36
+SKU0081,Mobil Industrial MIN 208L,IND,Industrial Oils,MIN,I,208.0,163.33,117.2,24
+SKU0082,Mobil Industrial SYN 208L,IND,Industrial Oils,SYN,III,208.0,297.83,152.2,36
+SKU0083,Mobil Industrial MIN 20L,IND,Industrial Oils,MIN,I,20.0,171.62,119.0,24
+SKU0084,Mobil Industrial MIN 1000L,IND,Industrial Oils,MIN,I,1000.0,159.02,116.4,24
+SKU0085,Mobil Industrial MIN 26L,IND,Industrial Oils,MIN,I,26.0,165.97,118.8,36
+SKU0086,Mobil Industrial MIN 1000L,IND,Industrial Oils,MIN,I,1000.0,164.28,116.4,48
+SKU0087,Mobil Industrial SEM 208L,IND,Industrial Oils,SEM,II,208.0,193.21,128.2,36
+SKU0088,Mobil Industrial SEM 208L,IND,Industrial Oils,SEM,II,208.0,209.22,128.2,48
+SKU0089,Mobil Industrial MIN 208L,IND,Industrial Oils,MIN,I,208.0,157.36,117.2,24
+SKU0090,Mobil Industrial MIN 1000L,IND,Industrial Oils,MIN,I,1000.0,162.02,116.4,36
+SKU0091,Mobil Industrial MIN 208L,IND,Industrial Oils,MIN,I,208.0,161.57,117.2,36
+SKU0092,Mobil Industrial MIN 1000L,IND,Industrial Oils,MIN,I,1000.0,159.74,116.4,48
+SKU0093,Mobil Industrial SEM 208L,IND,Industrial Oils,SEM,II,208.0,209.9,128.2,36
+SKU0094,Mobil Industrial SEM 208L,IND,Industrial Oils,SEM,II,208.0,196.45,128.2,24
+SKU0095,Mobil Industrial SYN 208L,IND,Industrial Oils,SYN,III,208.0,312.24,152.2,36
+SKU0096,Mobil Industrial SEM 208L,IND,Industrial Oils,SEM,II,208.0,201.31,128.2,48
+SKU0097,Mobil Greases MIN 18L,GRE,Greases,MIN,I,18.0,227.56,157.2,36
+SKU0098,Mobil Greases MIN 18L,GRE,Greases,MIN,I,18.0,219.81,157.2,36
+SKU0099,Mobil Greases MIN 20L,GRE,Greases,MIN,I,20.0,208.04,157.0,36
+SKU0100,Mobil Greases SEM 18L,GRE,Greases,SEM,II,18.0,251.17,168.2,24
+SKU0101,Mobil Greases MIN 18L,GRE,Greases,MIN,I,18.0,212.49,157.2,24
+SKU0102,Mobil Greases SEM 180L,GRE,Greases,SEM,II,180.0,260.3,166.4,36
+SKU0103,Mobil Greases MIN 180L,GRE,Greases,MIN,I,180.0,218.64,155.4,36
+SKU0104,Mobil Greases SEM 180L,GRE,Greases,SEM,II,180.0,268.71,166.4,36
+SKU0105,Mobil Greases MIN 180L,GRE,Greases,MIN,I,180.0,222.7,155.4,36
+SKU0106,Mobil Greases MIN 20L,GRE,Greases,MIN,I,20.0,212.79,157.0,24
+SKU0107,Mobil Greases MIN 180L,GRE,Greases,MIN,I,180.0,220.4,155.4,36
+SKU0108,Mobil Greases MIN 1L,GRE,Greases,MIN,I,1.0,245.42,175.0,36
+SKU0109,Mobil Metalworking MIN 20L,MET,Metalworking Fluids,MIN,I,20.0,183.14,127.0,48
+SKU0110,Mobil Metalworking MIN 20L,MET,Metalworking Fluids,MIN,I,20.0,171.74,127.0,24
+SKU0111,Mobil Metalworking MIN 1000L,MET,Metalworking Fluids,MIN,I,1000.0,176.44,124.4,48
+SKU0112,Mobil Metalworking MIN 208L,MET,Metalworking Fluids,MIN,I,208.0,175.0,125.2,36
+SKU0113,Mobil Metalworking SEM 20L,MET,Metalworking Fluids,SEM,II,20.0,204.37,138.0,36
+SKU0114,Mobil Metalworking MIN 208L,MET,Metalworking Fluids,MIN,I,208.0,171.23,125.2,36
+SKU0115,Mobil Metalworking MIN 208L,MET,Metalworking Fluids,MIN,I,208.0,165.75,125.2,48
+SKU0116,Mobil Metalworking MIN 1000L,MET,Metalworking Fluids,MIN,I,1000.0,164.23,124.4,36
+SKU0117,Mobil Metalworking MIN 208L,MET,Metalworking Fluids,MIN,I,208.0,177.37,125.2,24
+SKU0118,Mobil Metalworking MIN 20L,MET,Metalworking Fluids,MIN,I,20.0,176.7,127.0,24
+SKU0119,Mobil Metalworking SEM 20L,MET,Metalworking Fluids,SEM,II,20.0,222.33,138.0,48
+SKU0120,Mobil Metalworking SEM 1000L,MET,Metalworking Fluids,SEM,II,1000.0,205.2,135.4,36

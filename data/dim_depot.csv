@@ -1,0 +1,7 @@
+depot_id,depot_name,region,distance_km,std_transit_days,storage_capacity_kl,throughput_capacity_kl_per_week,primary_freight_inr_per_l,secondary_freight_inr_per_l
+DEP-BHW,Bhiwandi,West,78,1,4200,780,0.702,0.652
+DEP-GUR,Gurugram,North,1420,4,3300,560,3.319,0.759
+DEP-CHN,Chennai,South,1330,4,2900,470,3.143,0.619
+DEP-KOL,Kolkata,East,1960,6,2400,360,4.372,0.665
+DEP-HYD,Hyderabad,South,710,3,2600,410,1.934,0.746
+DEP-AMD,Ahmedabad,West,600,2,2100,330,1.72,0.799

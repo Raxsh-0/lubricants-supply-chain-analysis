@@ -1,0 +1,154 @@
+LUBRICANTS SUPPLY CHAIN - POWER BI MEASURES
+===========================================
+
+HOW TO USE THIS FILE
+
+Each measure below is separated by a line of dashes.
+Copy ONLY the text of one measure - from its name through to the closing
+bracket. Do not copy the dashes or the numbered heading.
+
+In Power BI:
+  1. Right-click the _Measures table in the Fields pane -> New measure
+  2. Click in the formula bar and press Ctrl+A  (this clears "Measure = ")
+  3. Paste
+  4. Press Enter
+
+Create them in the order given - some reference earlier ones.
+
+
+================================================================
+SERVICE
+================================================================
+
+1 ---------------------------------------------------------------
+Order Lines = COUNTROWS('vw_pbi_order_line')
+
+2 ---------------------------------------------------------------
+OTIF % = DIVIDE(SUMX('vw_pbi_order_line','vw_pbi_order_line'[otif_flag]), COUNTROWS('vw_pbi_order_line'))
+
+3 ---------------------------------------------------------------
+On Time % = DIVIDE(SUMX('vw_pbi_order_line','vw_pbi_order_line'[on_time_flag]), COUNTROWS('vw_pbi_order_line'))
+
+4 ---------------------------------------------------------------
+In Full % = DIVIDE(SUMX('vw_pbi_order_line','vw_pbi_order_line'[in_full_flag]), COUNTROWS('vw_pbi_order_line'))
+
+5 ---------------------------------------------------------------
+OTIF Target = 0.92
+
+6 ---------------------------------------------------------------
+OTIF Gap to Target = [OTIF %] - [OTIF Target]
+
+
+================================================================
+VOLUME AND MONEY
+================================================================
+
+7 ---------------------------------------------------------------
+Delivered kL = SUM('vw_pbi_order_line'[delivered_qty_l]) / 1000
+
+8 ---------------------------------------------------------------
+Unfilled kL = SUM('vw_pbi_order_line'[unfilled_qty_l]) / 1000
+
+9 ---------------------------------------------------------------
+Lost Margin Cr = SUM('vw_pbi_order_line'[lost_margin_inr]) / 10000000
+
+10 --------------------------------------------------------------
+Gross Margin Cr = SUM('vw_pbi_order_line'[gross_margin_inr]) / 10000000
+
+11 --------------------------------------------------------------
+Freight Cr = SUM('vw_pbi_order_line'[freight_cost_inr]) / 10000000
+
+12 --------------------------------------------------------------
+Freight per Litre = DIVIDE(SUM('vw_pbi_order_line'[freight_cost_inr]), SUM('vw_pbi_order_line'[delivered_qty_l]))
+
+13 --------------------------------------------------------------
+Cost to Serve per Litre = DIVIDE(SUM('vw_pbi_order_line'[freight_cost_inr]) + SUM('vw_pbi_order_line'[lost_margin_inr]), SUM('vw_pbi_order_line'[delivered_qty_l]))
+
+14 --------------------------------------------------------------
+Lost Margin Cr per Year = DIVIDE([Lost Margin Cr], 3)
+
+
+================================================================
+TREND  (create after OTIF %)
+================================================================
+
+15 --------------------------------------------------------------
+OTIF % LM = CALCULATE([OTIF %], DATEADD('vw_pbi_date'[date_key], -1, MONTH))
+
+16 --------------------------------------------------------------
+OTIF % MoM = [OTIF %] - [OTIF % LM]
+
+
+================================================================
+PAGE 2 - SUPPLIERS
+================================================================
+
+17 --------------------------------------------------------------
+Production Lost kL = SUM('vw_pbi_supplier_scorecard'[production_lost_kl])
+
+18 --------------------------------------------------------------
+Supplier Spend Cr = SUM('vw_pbi_supplier_scorecard'[spend_cr])
+
+19 --------------------------------------------------------------
+Margin Lost Cr = SUM('vw_pbi_supplier_scorecard'[margin_lost_cr])
+
+
+================================================================
+PAGE 3 - INVENTORY
+================================================================
+
+20 --------------------------------------------------------------
+Closing Stock Value Cr = SUM('vw_pbi_stock'[closing_stock_value_inr]) / 10000000
+
+21 --------------------------------------------------------------
+Avg Stock Value Cr = DIVIDE(SUM('vw_pbi_stock'[closing_stock_value_inr]) / 10000000, DISTINCTCOUNT('vw_pbi_stock'[week_start_date]))
+
+22 --------------------------------------------------------------
+Weeks of Cover = DIVIDE(SUM('vw_pbi_stock'[closing_stock_l]), SUM('vw_pbi_stock'[dispatches_l]))
+
+23 --------------------------------------------------------------
+Short Supplied Weeks % = DIVIDE(SUMX('vw_pbi_stock','vw_pbi_stock'[short_supplied_flag]), COUNTROWS('vw_pbi_stock'))
+
+
+================================================================
+AFTER ALL 23 ARE IN
+================================================================
+
+FORMATTING  (Fields pane -> click measure -> Measure tools ribbon -> Format)
+
+  Percentage, 1 decimal:
+      OTIF %
+      On Time %
+      In Full %
+      OTIF Target
+      OTIF Gap to Target
+      OTIF % MoM
+      Short Supplied Weeks %
+
+  Decimal number, 2 decimals:
+      Lost Margin Cr
+      Gross Margin Cr
+      Freight Cr
+      Lost Margin Cr per Year
+      Closing Stock Value Cr
+      Avg Stock Value Cr
+      Freight per Litre
+      Cost to Serve per Litre
+      Weeks of Cover
+
+  Whole number:
+      Order Lines
+      Delivered kL
+      Unfilled kL
+      Production Lost kL
+      Supplier Spend Cr
+
+
+DELETE THE PLACEHOLDER COLUMN
+  Right-click Column1 under _Measures -> Delete from model.
+  Do this LAST. Deleting it before any measure exists removes the table.
+
+
+CHECK IT WORKED
+  Add a Card visual, put [OTIF %] in it.  It should read 86.3%.
+  If it does, the model, relationships and measures are all correct.
